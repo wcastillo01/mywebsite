@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    color: #40514E;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin:50px auto 0 auto;
+
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    
+}
+
+
+a, h3{
+    color: #11999E;
+}
+
+hr {
+    border-top: 7px dotted;
+    width: 5%;
+    color: lightblue;
+    
+    
+}
+
+.skill-row {
+
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.intro{
+    width: 20em;
+    margin: auto;
+    margin-bottom: 30px ;
+}
+
+.gif1{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.gif2{
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/*OBJECTS*/ 
+.cloud1{
+    margin-top: 80px;
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+}
+.cloud2{
+    position: absolute;
+}
+.mountain{
+    position: relative;
+    bottom: -5px;
+}
+
+
+/* CONTAINERS */
+.top-container{
+    margin: 0;
+    padding-top: 37.8px;
+    text-align: center;
+    background-color:#EAF6F6;
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-align: center;
+}
+
+.middle-container{
+    margin: 100px 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.button_1 {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 185px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 12px;
+    background-color: #5BA8FF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+    
+.button_1:hover {
+    border: solid #FFFFFF 1px;
+    background: #51C2EA;
+    background-image: -webkit-linear-gradient(top, #51C2EA, #53A4F1);
+    background-image: -moz-linear-gradient(top, #51C2EA, #53A4F1);
+    background-image: -ms-linear-gradient(top, #51C2EA, #53A4F1);
+    background-image: -o-linear-gradient(top, #51C2EA, #53A4F1);
+    background-image: linear-gradient(to bottom, #51C2EA, #53A4F1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
