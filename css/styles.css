@@ -10,6 +10,7 @@ h1 {
     margin:50px auto 0 auto;
 
 }
+
 h2{
     color: #66BFBF;
     font-size: 2.5rem;
@@ -70,17 +71,22 @@ hr {
 }
 .mountain{
     position: relative;
-    bottom: -5px;
+    bottom: auto;
 }
 
 
 /* CONTAINERS */
-.top-container{
-    margin: 0;
-    padding-top: 37.8px;
-    text-align: center;
-    background-color:#EAF6F6;
-}
+
+/* @media only screen and (min-width: 800px){ */
+    .top-container{
+        margin: 0;
+        padding-top: 37.8px;
+        text-align: center;
+        background-color:#EAF6F6;
+        /* height: 100vh; */
+        height: auto;
+    }
+/* } */
 
 .photo{
     height: 200px;
